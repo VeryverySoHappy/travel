@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.skip,
+legend {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  left: -999px;
+  line-height: 0;
+  display: inline-block;
+}
+
+#skipMenu {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+
+#skipMenu a {
+  position: absolute;
+  top: -100px;
+}
+
+#skipMenu a:hover,
+#skipMenu a:active,
+#skipMenu a:focus {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 8px 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  width: 100%;
+}

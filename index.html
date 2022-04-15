@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/common.css">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 </head>
 <title>Travel</title>
@@ -18,138 +22,96 @@
   <div class="wrapper">
     <!-- topBanner start -->
     <div class="topBanner">
-      <p><img src="" alt=""></p>
-      <img src="" alt="" class="deleteBtn">
+      <p><img src="./img/header/topBanner.jpg" alt=""></p>
+      <i class="fa-solid fa-bars fa deleteBtn"></i>
     </div>
     <!-- topBanner end -->
+
+    <!-- aside_fixed start -->
+    <div class="aside_fixed">
+      <h2>땡처리 특가</h2>
+      <div class="choiceBtn">
+        <a href="" class="nextBtn"><i class="fa-solid fa-angle-down fa"></i></a>
+        <a href="" class="nextBtn"><i class="fa-solid fa-angle-up fa"></i></a>
+      </div>
+      <div class="saleWrap">
+        <ul class="saleList">
+          <li class="sale">
+            <a href="javascript"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- aside_fixed end -->
 
     <!-- header start -->
     <header>
       <div class="inner">
-        <div class="header_top">
-          <a href="#">회원가입</a>
-          <a href="#">로그인</a>
-          <a href="#" class="information">고객센터 <i class="fa-solid fa-angle-down fa"></i>
-            <ul class="information_sub" id="information_sub">
-              <li><a href="#">공지사항</a></li>
-              <li><a href="#">자주묻는 질문</a></li>
-              <li><a href="#">1:1 문의</a></li>
-            </ul>
-          </a>
-        </div>
-        <!-- header_mid start -->
-        <div class="header_mid">
-          <a href="#">
-            <img src="" alt="">
-            <h1 class="skip">하나 투어</h1>
-          </a>
-          <!-- bn_top_right start -->
-          <div class="bn_top_right">
-            <div class="process_info">
-              <dl>
-                <dt>
-                  <strong class="title">노랑풍선 자유여행 마감</strong>
-                  <div class="date_box">
-                    <span id="mon"><span class="hd">월</span></span>
-                    <span id="day"><span class="hd">일</span></span>
-                    <span id="dy"><span class="hd">요일</span></span>
-                  </div>
-                </dt>
-                <dd class="proce_list_wrap">
-                  <ul class="proce_list">
-                    <li>111111</li>
-                    <li>2222</li>
-                    <li>33333</li>
-                    <li>44444</li>
-                    <li>55555</li>
-                  </ul>
-                  <div class="btnG">
-                    <button class="prev"><img src="/img/header/btn_process_prev.png" alt="이전보기 버튼"></button>
-                    <button class="bxpause"><img src="/img/header/btn_process_pause.png" alt="멈춤 버튼"></button>
-                    <button class="play"><img src="/img/header/btn_process_play.png" alt="재생 버튼"></button>
-                    <button class="next"><img src="/img/header/btn_process_next.png" alt="다음보기 버튼"></button>
-                  </div>
-                </dd>
-              </dl>
-            </div>
+        <div class="top_wrap">
+          <a href="#"><h1>하나투어</h1></a>
+          <div class="site_search">
+            <form method="post" name="searchfrm" class="search">
+              <input type="text" class="input_val" name="inval" placeholder='"숙박대전"을 검색해 보세요!'/>
+              <input type="submit" value="검색"/>
+            </form>
           </div>
-          <!-- bn_top_right end -->
+          <div class="top_wrapR">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+            <a href="#">고객센터</a>
+          </div>
         </div>
-        <!-- header_mid end -->
-
-        <div class="header_bot">
-          <nav class="gnb_wrap" id="gnb">
-            <h2 class="skip">주메뉴</h2>
-            <div class="gnb_gb_wrap">
-              <div class="gnb">
-                <ul class="gnb_menu">
-                  <li class="on">
-                    <a href="">데이타셋</a>
-                    <ul class="deth2_menu">
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="">제공신청</a>
-                    <ul class="deth2_menu">
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="">활용사례</a>
-                    <ul class="deth2_menu">
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="">오픈API</a>
-                    <ul class="deth2_menu">
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="">정보공유</a>
-                    <ul class="deth2_menu">
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                      <li><a href="#">파일데이터</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="m_gnb">
-              <ul class="m_deth1">
-                <li><a href="#">데이타셋</a></li>
-                <li><a href="#">제공신청</a></li>
-                <li><a href="#">활용사례</a></li>
-                <li><a href="#">오픈API</a></li>
-                <li><a href="#">정보공유</a></li>
+        <div class="gnb">
+          <div class="gnb_inner">
+            <ul>
+              <li><a href="#" id="subMenu"><i class="fa-solid fa-bars fa"></i> 전체메뉴</a></li>
+              <li><a href="#"><span>해외여행</span></a></li>
+              <li><a href="#"><span>국내/제주</span></a></li>
+              <li><a href="#"><span>항공</span></a></li>
+              <li><a href="#"><span>호텔</span></a></li>
+              <li><a href="#"><span>투어/입장권</span></a></li>
+              <li><a href="#"><span>차량서비스</span></a></li>
+            </ul>
+          </div>
+          <div class="sub_menu">
+            <div class="sub_wrap">
+              <ul class="subL">
+                <li class="sub01">
+                  <a href="#" class="sub01Title">패키지</a>
+                  <ul>
+                    <li><a href="#">허니문</a></li>
+                    <li><a href="#">도미노 모멘트</a></li>
+                    <li><a href="#">퀵오더</a></li>
+                    <li><a href="#">단체주문 서비스</a></li>
+                  </ul>
+                </li>
+                <li class="sub01">
+                  <a href="#" class="sub01Title">고객센터</a>
+                  <ul>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">온라인 신문고</a></li>
+                  </ul>
+                </li>
+                <li class="sub01">
+                  <a href="#" class="sub01Title">회사소개</a>
+                  <ul>
+                    <li><a href="#">한국도미노피자</a></li>
+                    <li><a href="#">광고갤러리</a></li>
+                    <li><a href="#">사회공헌활동</a></li>
+                    <li><a href="#">가맹점 모집</a></li>
+                    <li><a href="#">인재채용</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="subR sub01">
+                <li><a href="#" class="sub01Title">공지사항</a>
+                  <ul>
+                    <li><a href="#">도미노뉴스</a></li>
+                    <li><a href="#">보도자료</a></li>
+                  </ul>
+                </li>
               </ul>
             </div>
-          </nav>
-          <div class="gnbR">
-            <form method="post" name="searchfrm" id="search">
-              <input type="text" class="input_val" name="inval" placeholder="🎉 SPRING FESTA  최대 55% 할인" />
-              <input type="submit" value="검색" />
-            </form>
-            <a href="#" class="cart">
-              <img src="/img/header/btnCart.png" alt="장바구니">
-              <div class="cartCount">0</div>
-            </a>
           </div>
         </div>
       </div>
@@ -158,30 +120,30 @@
     <section class="section01">
       <div id="bannerwrap">
         <div class="banner">
-          <a href="#" class="on"><img src="/img/section01/main1.webp" alt=""></a>
-          <a href="#" class="on"><img src="/img/section01/main2.webp" alt=""></a>
-          <a href="#" class="on"><img src="/img/section01/main3.webp" alt=""></a>
-          <a href="#" class="on"><img src="/img/section01/main4.webp" alt=""></a>
-          <a href="#" class="on"><img src="/img/section01/main5.webp" alt=""></a>
-          <a href="#" class="on"><img src="/img/section01/main6.webp" alt=""></a>
-          <a href="#" class="on"><img src="/img/section01/main7.webp" alt=""></a>
-          <a href="#" class="on"><img src="/img/section01/main8.webp" alt=""></a>
+          <a href="#" class="on"><img src="./img/section01/banner1.jpg" alt=""/></a>
+          <a href="#"><img src="./img/section01/banner2.jpg"" alt=""/></a>
+          <a href="#"><img src="./img/section01/banner3.jpg"" alt=""/></a>
+          <a href="#"><img src="./img/section01/banner4.jpg"" alt=""/></a>
+          <a href="#"><img src="./img/section01/banner5.jpg"" alt=""/></a>
+          <a href="#"><img src="./img/section01/banner6.jpg"" alt=""/></a>
+          <a href="#"><img src="./img/section01/banner7.jpg"" alt=""/></a>
+          <a href="#"><img src="./img/section01/banner8.jpg"" alt=""/></a>
         </div>
         <ul class="list">
-          <li><a href="#" class="on">제철수산물</a></li>
-          <li><a href="#">한살림펀딩</a></li>
-          <li><a href="#">딸기</a></li>
-          <li><a href="#">후기이벤트</a></li>
-          <li><a href="#">가격인하</a></li>
-          <li><a href="#">사전예약</a></li>
-          <li><a href="#">가치차린</a></li>
-          <li><a href="#">봄철건강</a></li>
+          <li><a href="#" class="on"><img src="./img/section01/sbanner1.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="./img/section01/sbanner2.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="./img/section01/sbanner3.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="./img/section01/sbanner4.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="./img/section01/sbanner5.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="./img/section01/sbanner6.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="./img/section01/sbanner7.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="./img/section01/sbanner8.jpg" alt=""/></a></li>
         </ul>
         <div class="btn">
-          <a href="#" class="stop"><i class="fa-solid fa-stop fa"></i><span class="skip">알림판정지</span></a>
-          <a href="#" class="play"><i class="fa-solid fa-play fa"></i><span class="skip">알림판재생</span></a>
+          <a href="#" class="stop"><span>정지</span></a>
+          <a href="#" class="play"><span>실행</span></a>
         </div>
-      </div>
+      </div>  
     </section>
     <section class="section02">
       <div class="inner">
@@ -193,6 +155,8 @@
       </div>
     </section>
   </div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/main.js"></script>
 </body>
-
 </html>
